@@ -1,0 +1,26 @@
+uuid: 4f434837-ba52-411d-a237-a3e590c40a46
+langcode: fr
+status: true
+dependencies:
+  config:
+    - system.menu.tools
+  module:
+    - system
+  theme:
+    - breeze
+_core:
+  default_config_hash: NeHSoqm4XFqA7_0bDmR429ZZQt3LRbZMNRJTMsFyOfI
+id: breeze_tools
+theme: breeze
+region: sidebar_first
+weight: 0
+provider: null
+plugin: 'system_menu_block:tools'
+settings:
+  id: 'system_menu_block:tools'
+  label: Outils
+  provider: system
+  label_display: visible
+  level: 1
+  depth: 0
+visibility: {  }

@@ -1,0 +1,5 @@
+label: 'Geolocation Demo Single'
+default_value:
+  -
+    lat: '43.10930166384064'
+    lng: '131.89649105072021'

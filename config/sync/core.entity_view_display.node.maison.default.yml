@@ -1,0 +1,28 @@
+uuid: 259e2a0b-f166-486d-b588-50e2c760440f
+langcode: fr
+status: true
+dependencies:
+  config:
+    - field.field.node.maison.body
+    - node.type.maison
+  module:
+    - text
+    - user
+id: node.maison.default
+targetEntityType: node
+bundle: maison
+mode: default
+content:
+  body:
+    label: hidden
+    type: text_default
+    weight: 101
+    settings: {  }
+    third_party_settings: {  }
+    region: content
+  links:
+    weight: 100
+    region: content
+hidden:
+  addtoany: true
+  langcode: true

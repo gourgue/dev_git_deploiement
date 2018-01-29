@@ -1,0 +1,14 @@
+hello.hello1:
+  title: 'Hello!'
+  route_name: hello.hello
+  menu_name: main
+  
+# hello.hello2:
+#   title: 'TOTO!'
+#   route_name: hello.hello
+#   menu_name: main
+
+# hello.hello3:
+#   title: 'He!'
+#   route_name: hello.hello
+#   menu_name: main

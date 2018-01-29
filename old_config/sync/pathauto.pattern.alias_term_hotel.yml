@@ -1,0 +1,23 @@
+uuid: 60dcf75e-fc16-47a6-8963-58aeedbe5c82
+langcode: fr
+status: true
+dependencies:
+  module:
+    - ctools
+    - taxonomy
+id: alias_term_hotel
+label: 'Alias Term Hôtel'
+type: 'canonical_entities:taxonomy_term'
+pattern: '/hotels/[term:name]'
+selection_criteria:
+  22a147c6-1083-46d1-9adf-be40a691f3a2:
+    id: 'entity_bundle:taxonomy_term'
+    bundles:
+      type_d_hotel: type_d_hotel
+    negate: false
+    context_mapping:
+      taxonomy_term: taxonomy_term
+    uuid: 22a147c6-1083-46d1-9adf-be40a691f3a2
+selection_logic: and
+weight: -5
+relationships: {  }

@@ -1,0 +1,20 @@
+uuid: 5985c5d8-7e04-4ed2-8876-7002b99923b5
+langcode: fr
+status: true
+dependencies:
+  theme:
+    - breeze
+_core:
+  default_config_hash: 7rR9chwXvdM2H8OYMAYx9Zj3GGlPMrZp_M3ZA4thYTk
+id: breeze_page_title
+theme: breeze
+region: content
+weight: -50
+provider: null
+plugin: page_title_block
+settings:
+  id: page_title_block
+  label: 'Titre de page'
+  provider: core
+  label_display: '0'
+visibility: {  }

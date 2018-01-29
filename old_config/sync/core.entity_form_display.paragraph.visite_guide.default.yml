@@ -1,0 +1,46 @@
+uuid: 9bba67ea-ff95-46e7-a3c6-70df7b82bf4d
+langcode: fr
+status: true
+dependencies:
+  config:
+    - field.field.paragraph.visite_guide.field_description
+    - field.field.paragraph.visite_guide.field_photo
+    - field.field.paragraph.visite_guide.field_titre
+    - image.style.thumbnail
+    - paragraphs.paragraphs_type.visite_guide
+  module:
+    - image
+    - text
+id: paragraph.visite_guide.default
+targetEntityType: paragraph
+bundle: visite_guide
+mode: default
+content:
+  field_description:
+    weight: 3
+    settings:
+      rows: 5
+      placeholder: ''
+    third_party_settings: {  }
+    type: text_textarea
+    region: content
+  field_photo:
+    weight: 1
+    settings:
+      progress_indicator: throbber
+      preview_image_style: thumbnail
+    third_party_settings: {  }
+    type: image_image
+    region: content
+  field_titre:
+    weight: 2
+    settings:
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+    type: string_textfield
+    region: content
+hidden:
+  created: true
+  status: true
+  uid: true

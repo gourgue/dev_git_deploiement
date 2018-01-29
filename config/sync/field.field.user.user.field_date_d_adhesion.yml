@@ -1,0 +1,21 @@
+uuid: 56e51b4a-62b5-4895-b25f-26c4b62c014c
+langcode: fr
+status: true
+dependencies:
+  config:
+    - field.storage.user.field_date_d_adhesion
+  module:
+    - datetime
+    - user
+id: user.user.field_date_d_adhesion
+field_name: field_date_d_adhesion
+entity_type: user
+bundle: user
+label: 'Date d''adhésion'
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: datetime

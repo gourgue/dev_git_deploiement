@@ -1,0 +1,24 @@
+label: 'Geolocation Demo - CommonMap'
+display:
+  default:
+    display_title: Master
+    display_options:
+      exposed_form:
+        options:
+          submit_button: Apply
+          reset_button_label: Reset
+          exposed_sorts_label: 'Sort by'
+          sort_asc_label: Asc
+          sort_desc_label: Desc
+      fields:
+        title_1:
+          separator: ', '
+        field_geolocation_demo_single:
+          separator: ', '
+      title: 'Geolocation CommonMap'
+  page_1:
+    display_title: Page
+    display_options:
+      menu:
+        title: CommonMap
+        description: 'Multiple results on one page'

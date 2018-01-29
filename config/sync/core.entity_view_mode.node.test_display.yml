@@ -1,0 +1,10 @@
+uuid: ac65d45a-41b2-45d4-a26e-02b970719fc7
+langcode: fr
+status: true
+dependencies:
+  module:
+    - node
+id: node.test_display
+label: 'Test display'
+targetEntityType: node
+cache: true

@@ -1,0 +1,19 @@
+uuid: 998f588f-852b-4582-bce6-bec1c2ab134c
+langcode: fr
+status: true
+dependencies: {  }
+_core:
+  default_config_hash: hj6zGNwndnW_J6lKfFcg-tY5e5YqWfgXyt0qioGtXL8
+name: 'Newsletter des hôtels'
+id: default
+description: 'Des nouvelles de nos hôtels.'
+format: html
+priority: 0
+receipt: true
+from_name: 'Hotels et Restaurants'
+subject: '[[simplenews-newsletter:name]] [node:title]'
+from_address: mikegourgue@hotmail.com
+hyperlinks: false
+new_account: none
+opt_inout: double
+weight: 0

@@ -1,0 +1,9 @@
+block permission:
+  title: "Block access"
+  description: "You don't have access"
+  restruct: true
+
+administrer hello:
+  title: "Administrator hello"
+  description: "You don't have access"
+  restruct: true

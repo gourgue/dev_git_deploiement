@@ -1,0 +1,23 @@
+uuid: 914fa141-8aa6-4079-9be6-a5d2e67617d2
+langcode: fr
+status: true
+dependencies:
+  config:
+    - contact.form.contacter_le_responsable_legal
+    - field.storage.contact_message.field_url_de_la_page
+  module:
+    - link
+id: contact_message.contacter_le_responsable_legal.field_url_de_la_page
+field_name: field_url_de_la_page
+entity_type: contact_message
+bundle: contacter_le_responsable_legal
+label: 'url de la page'
+description: 'url de la page concerné'
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  link_type: 17
+  title: 1
+field_type: link

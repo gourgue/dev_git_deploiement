@@ -1,0 +1,18 @@
+uuid: 3d2a729b-7f29-46cd-830b-119d3b305d8a
+langcode: fr
+status: true
+dependencies:
+  config:
+    - paragraphs.paragraphs_type.visite_guide
+id: paragraph.visite_guide.created
+field_name: created
+entity_type: paragraph
+bundle: visite_guide
+label: 'Écrit le'
+description: 'Heure de création du paragraphe.'
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: created

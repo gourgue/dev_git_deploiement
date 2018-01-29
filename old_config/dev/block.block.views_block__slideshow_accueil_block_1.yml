@@ -1,0 +1,34 @@
+uuid: 0fee7c78-7cb4-4c05-96ca-97c40b1beac9
+langcode: fr
+status: true
+dependencies:
+  config:
+    - views.view.slideshow_accueil
+  module:
+    - ctools
+    - views
+  theme:
+    - bartik
+id: views_block__slideshow_accueil_block_1
+theme: bartik
+region: sidebar_second
+weight: -8
+provider: null
+plugin: 'views_block:slideshow_accueil-block_1'
+settings:
+  id: 'views_block:slideshow_accueil-block_1'
+  label: ''
+  provider: views
+  label_display: visible
+  views_label: ''
+  items_per_page: none
+visibility:
+  'entity_bundle:node':
+    id: 'entity_bundle:node'
+    bundles:
+      hotel: hotel
+      page: page
+      page_de_test: page_de_test
+    negate: false
+    context_mapping:
+      node: '@node.node_route_context:node'

@@ -1,0 +1,20 @@
+uuid: 98a39f8c-8c3f-4645-8945-d6412a851505
+langcode: fr
+status: true
+dependencies:
+  config:
+    - paragraphs.paragraphs_type.visite_guide
+id: paragraph.visite_guide.uid
+field_name: uid
+entity_type: paragraph
+bundle: visite_guide
+label: 'Écrit par'
+description: 'L''identifiant (ID) utilisateur de l''auteur du paragraphe.'
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: 'Drupal\paragraphs\Entity\Paragraph::getCurrentUserId'
+settings:
+  handler: default
+  handler_settings: {  }
+field_type: entity_reference

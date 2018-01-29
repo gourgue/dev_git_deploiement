@@ -1,0 +1,9 @@
+uuid: b6716e9f-fa7b-4d58-bbf1-629404929493
+langcode: fr
+status: true
+dependencies: {  }
+id: visite_guide
+label: 'visite guidée'
+icon_uuid: null
+description: 'Visite guidée de l''hotel'
+behavior_plugins: {  }

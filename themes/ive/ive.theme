@@ -1,0 +1,68 @@
+<?php
+
+/**
+ * @file
+ * Functions to support theming in the ive theme.
+ */
+
+use Drupal\Core\Form\FormStateInterface;
+use Drupal\Core\Template\Attribute;
+use Drupal\Component\Utility\Html;
+
+/**
+ * Implements hook_preprocess_HOOK() for HTML document templates.
+ *
+ * Adds body classes if certain regions have content.
+ */
+function ive_preprocess_html(&$variables) {
+  if (!empty($variables['page']['sidebar_first']) && !empty($variables['page']['sidebar_second'])) {
+    $variables['attributes']['class'][] = 'layout-two-sidebars';
+    // Add information about the number of sidebars.
+  }
+  elseif (!empty($variables['page']['sidebar_first'])) {
+    $variables['attributes']['class'][] = 'layout-one-sidebar';
+    $variables['attributes']['class'][] = 'layout-sidebar-first';
+  }
+  elseif (!empty($variables['page']['sidebar_second'])) {
+    $variables['attributes']['class'][] = 'layout-one-sidebar';
+    $variables['attributes']['class'][] = 'layout-sidebar-second';
+  }
+  else {
+    $variables['attributes']['class'][] = 'layout-no-sidebars';
+  }
+
+  if (!empty($variables['page']['featured_top'])) {
+    $variables['attributes']['class'][] = 'has-featured-top';
+  }
+
+  $current_path = \Drupal::service('path.current')->getPath();
+  $variables['attributes']['class'][] = 'page'.Html::cleanCssIdentifier($current_path);
+}
+
+/**
+ * Implements hook_preprocess_HOOK() for block.html.twig.
+ */
+function ive_preprocess_block(&$variables) {
+  // Add a clearfix class to system branding blocks.
+  if ($variables['plugin_id'] == 'system_branding_block') {
+    $variables['attributes']['class'][] = 'clearfix';
+  }
+
+  $variables['base_path'] = base_path();
+}
+
+
+/**
+ * Mike must write a comment
+ */
+function ive_theme_suggestions_page_alter(array &$suggestions, array $variables) {
+  if ($node = \Drupal::routeMatch()->getParameter('node')) {
+    $suggestions[] = 'page__node__'.$node->bundle();
+    $suggestions[] = 'page__node__'.$node->id();
+  }
+  if ($term = \Drupal::routeMatch()->getParameter('taxonomy_term')) {
+    $suggestions[] = 'page__taxonomy__'.$term->bundle();
+    $suggestions[] = 'page__taxonomy__  '.$term->id();
+  }
+   //kint($suggestions);
+}

@@ -1,0 +1,16 @@
+uuid: 122c1f13-0e87-4c8a-b88a-de9e7a78575e
+langcode: fr
+status: true
+dependencies: {  }
+_core:
+  default_config_hash: CMuvuRCfGZ5k3XgsXmkEc54rI8etDY1Qz2JP7JzKL-g
+name: linkit_result_thumbnail
+label: 'Vignette de résultat Linkit'
+effects:
+  2943df29-38ea-459c-ba1d-290489bb1807:
+    uuid: 2943df29-38ea-459c-ba1d-290489bb1807
+    id: image_scale_and_crop
+    weight: 1
+    data:
+      width: 50
+      height: 50

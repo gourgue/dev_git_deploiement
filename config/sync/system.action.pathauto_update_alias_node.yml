@@ -1,0 +1,13 @@
+uuid: cb18d5c1-5092-479b-b20d-5f326f2e5099
+langcode: fr
+status: true
+dependencies:
+  module:
+    - pathauto
+_core:
+  default_config_hash: '-SdRoSbsl_FULjbX8mgESZdeoEOjgi7rDhHNdLOJ8n8'
+id: pathauto_update_alias_node
+label: 'Mettre à jour l''alias d''URL'
+type: node
+plugin: pathauto_update_alias
+configuration: {  }

@@ -1,0 +1,52 @@
+hello.hello:
+  title: 'Hello'
+  route_name: hello.hello
+  base_route: hello.hello
+  weight: 1
+
+hello.list:
+  title: 'Node list'
+  route_name: hello.list
+  base_route: hello.hello
+  weight: 2
+
+hello.history:
+  title: 'Update history'
+  route_name: hello.node.history
+  base_route: entity.node.canonical
+  weight: 3
+
+hello.form:
+  title: 'Calculator'
+  route_name: hello.calculator
+  base_route: hello.hello
+  weight: 4
+
+hello.block.color.task:
+  title: 'Blocks color'
+  route_name: hello.block.color
+  base_route: system.themes_page
+  weight: 3
+
+  hello.form:
+  title: 'Country'
+  route_name: hello.country
+  base_route: hello.hello
+  weight: 4
+
+# hello.list1:
+#   title: 'Node list by article'
+#   route_name: hello.list
+#   base_route: hello.hello
+#   route_parameters:
+#     node_type: article
+#   weight: 3
+
+# hello.list2:
+#   title: 'Node list by article'
+#   route_name: hello.list
+#   base_route: hello.hello
+#   route_parameters:
+#     node_type: page
+#   weight: 4
+

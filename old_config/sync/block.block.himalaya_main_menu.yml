@@ -1,0 +1,26 @@
+uuid: 5d5bd0d0-8a95-4aa8-a41c-ab8b8a8bdbe9
+langcode: fr
+status: true
+dependencies:
+  config:
+    - system.menu.main
+  module:
+    - system
+  theme:
+    - himalaya
+_core:
+  default_config_hash: rx9IrdDv7Ldc4kpalZAxdhIPZfYIeOMh1N-qKoQZwHo
+id: himalaya_main_menu
+theme: himalaya
+region: primary_menu
+weight: 0
+provider: null
+plugin: 'system_menu_block:main'
+settings:
+  id: 'system_menu_block:main'
+  label: 'Navigation principale'
+  provider: system
+  label_display: '0'
+  level: 1
+  depth: 1
+visibility: {  }

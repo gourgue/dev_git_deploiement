@@ -1,0 +1,34 @@
+uuid: d3d2746c-5539-425a-9f50-5f09a3f9c4f4
+langcode: fr
+status: true
+dependencies:
+  config:
+    - block_content.type.bloc_avec_image
+    - field.field.block_content.bloc_avec_image.body
+    - field.field.block_content.bloc_avec_image.field_image_bloc
+  module:
+    - image
+    - text
+id: block_content.bloc_avec_image.default
+targetEntityType: block_content
+bundle: bloc_avec_image
+mode: default
+content:
+  body:
+    label: hidden
+    type: text_default
+    weight: 0
+    settings: {  }
+    third_party_settings: {  }
+    region: content
+  field_image_bloc:
+    weight: 1
+    label: above
+    settings:
+      image_style: ''
+      image_link: ''
+    third_party_settings: {  }
+    type: image
+    region: content
+hidden:
+  langcode: true

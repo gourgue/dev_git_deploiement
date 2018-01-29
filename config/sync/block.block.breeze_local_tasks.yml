@@ -1,0 +1,22 @@
+uuid: 32373f00-fb4c-4be8-b1fe-1a55065adeff
+langcode: fr
+status: true
+dependencies:
+  theme:
+    - breeze
+_core:
+  default_config_hash: X9I1OB0W3WlWtrK-CNcg6hNWwa8wficanpH8pYnDZDE
+id: breeze_local_tasks
+theme: breeze
+region: content
+weight: -40
+provider: null
+plugin: local_tasks_block
+settings:
+  id: local_tasks_block
+  label: Onglets
+  provider: core
+  label_display: '0'
+  primary: true
+  secondary: true
+visibility: {  }

@@ -1,0 +1,22 @@
+uuid: dafc5616-1e04-4600-a4f2-218205d3cdbd
+langcode: fr
+status: true
+dependencies:
+  module:
+    - search
+  theme:
+    - bartik
+_core:
+  default_config_hash: za-39d5WDUg6XvbyqSnuVYEeq6QM4qKJxW8MnoAha5A
+id: bartik_search
+theme: bartik
+region: sidebar_first
+weight: -14
+provider: null
+plugin: search_form_block
+settings:
+  id: search_form_block
+  label: Rechercher
+  provider: search
+  label_display: visible
+visibility: {  }

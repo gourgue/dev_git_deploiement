@@ -1,0 +1,9 @@
+uuid: cf5bace5-3bb5-409b-bc40-7a5367f9e0c2
+langcode: fr
+status: true
+dependencies: {  }
+name: 'Type d''hotel'
+vid: type_d_hotel
+description: 'taxionomie de type d''hotel'
+hierarchy: 0
+weight: 0

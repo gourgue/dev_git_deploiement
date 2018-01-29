@@ -1,0 +1,34 @@
+uuid: e4cf4049-74ca-4592-8459-3a831ec4455d
+langcode: fr
+status: true
+dependencies:
+  module:
+    - addtoany
+    - annonce
+    - block_visibility_groups
+  theme:
+    - bartik
+id: addtoanybuttons
+theme: bartik
+region: footer_fifth
+weight: -12
+provider: null
+plugin: addtoany_block
+settings:
+  id: addtoany_block
+  label: 'Réseaux sociaux'
+  provider: addtoany
+  label_display: visible
+visibility:
+  date:
+    id: date
+    module: ''
+    negate: null
+    date_debut: ''
+    date_fin: ''
+    context_mapping: {  }
+  condition_group:
+    id: condition_group
+    negate: false
+    block_visibility_group: ''
+    context_mapping: {  }

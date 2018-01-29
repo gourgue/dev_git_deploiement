@@ -1,0 +1,18 @@
+uuid: 2d9ff556-92a0-446c-9d76-f38cd5ed227b
+langcode: fr
+status: true
+dependencies:
+  module:
+    - menu_ui
+third_party_settings:
+  menu_ui:
+    available_menus:
+      - main
+    parent: 'main:'
+name: Maison
+type: maison
+description: ''
+help: ''
+new_revision: true
+preview_mode: 1
+display_submitted: true

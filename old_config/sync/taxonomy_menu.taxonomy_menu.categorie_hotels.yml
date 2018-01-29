@@ -1,0 +1,14 @@
+uuid: f05cfff1-e467-4707-b4de-30fc7796352f
+langcode: fr
+status: true
+dependencies:
+  config:
+    - system.menu.menu-hotels
+    - taxonomy.vocabulary.categorie
+id: categorie_hotels
+label: 'Catégorie Hôtels'
+vocabulary: categorie
+menu: menu-hotels
+expanded: false
+depth: 0
+menu_parent: 'menu-hotels:menu_link_content:832e3970-522c-4877-a5f4-14ace128ac1b'

@@ -1,0 +1,92 @@
+hello.hello:
+  path: '/hello/{param}'
+  defaults:
+    _title: 'Hello'
+    _controller: '\Drupal\hello\Controller\HelloController::content'
+    param: null
+  requirements:
+    _access_hello: '48'
+
+hello.json:
+  path: '/json'
+  defaults:
+    _title: 'Json'
+    _controller: '\Drupal\hello\Controller\HelloController::jsonResponse'
+  requirements:
+    _access: 'TRUE'
+
+hello.list:
+  path: '/hello/list/{param}'
+  defaults:
+    _title: 'New list'
+    _controller: '\Drupal\hello\Controller\HelloNodeListeController::nodeList'
+    param: null
+  requirements:
+    _acces_check: '48'
+    
+
+
+hello.node.history:
+  path: '/node/{node}/history'
+  defaults:
+    _title: 'Update history'
+    _controller: '\Drupal\hello\Controller\HelloNodeHistoryController::nodeHistory'
+  requirements:
+    _access: 'TRUE'
+
+
+hello.calculator:
+  path: '/calculator'
+  defaults:
+    _title: 'Calculatrice'
+    _form: '\Drupal\hello\Form\CalculatorForm'
+  requirements:
+    _permission: 'block permission'
+
+hello.block.color:
+  path: '/admin/appearance/block-color'
+  defaults:
+    _title: 'Blocks color'
+    _form: '\Drupal\hello\Form\AdminForm'
+  requirements:
+    _permission: 'administrer hello'
+
+
+hello.country:
+  path: '/country'
+  defaults:
+    _title: 'Country list'
+    _form: '\Drupal\hello\Form\CountryForm'
+  requirements:
+    _access: 'TRUE'
+
+# hello.access:
+#   path: '/hello'
+#   defaults:
+#    // _controller: '\Drupal\hello\HelloController::content' 
+#     _title: 'hello access'
+#   requirements:
+#     _acces_check: '48'
+hello.console_test_controller_hello:
+  path: 'console_test'
+  defaults:
+    _controller: '\Drupal\hello\Controller\ConsoleTestController::hello'
+    _title: 'content'
+  requirements:
+    _permission: 'access content'
+hello.console_test_controller_consoleTest:
+  path: 'console'
+  defaults:
+    _controller: '\Drupal\hello\Controller\ConsoleTestController::consoleTest'
+    _title: 'content'
+  requirements:
+    _permission: 'access content'
+
+hello.test_form:
+  path: '/form-test'
+  defaults:
+    _form: '\Drupal\hello\Form\TestForm'
+    _title: 'TestForm'
+  requirements:
+    _access: 'TRUE'
+  

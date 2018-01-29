@@ -1,0 +1,19 @@
+uuid: cbb5c5ce-4d12-479f-b26d-ecd7e48e27db
+langcode: fr
+status: true
+dependencies:
+  module:
+    - contact
+    - link
+id: contact_message.field_url_de_la_page
+field_name: field_url_de_la_page
+entity_type: contact_message
+type: link
+settings: {  }
+module: link
+locked: false
+cardinality: -1
+translatable: true
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false

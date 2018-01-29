@@ -1,0 +1,22 @@
+uuid: 92e8e873-8315-410b-b0d1-4a497dbb0a7b
+langcode: fr
+status: true
+dependencies: {  }
+name: photo_20_20
+label: 'Photo 35*35'
+effects:
+  e066909e-4518-43bd-a6eb-90a9b5e66912:
+    uuid: e066909e-4518-43bd-a6eb-90a9b5e66912
+    id: image_resize
+    weight: 1
+    data:
+      width: 35
+      height: 35
+  b2f10e7e-5d5a-4dbd-8907-4bb5327db060:
+    uuid: b2f10e7e-5d5a-4dbd-8907-4bb5327db060
+    id: image_scale
+    weight: 2
+    data:
+      width: 35
+      height: 35
+      upscale: true

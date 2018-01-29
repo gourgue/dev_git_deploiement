@@ -1,0 +1,20 @@
+uuid: 226d0a5b-eb68-4a5e-b288-f90835640c22
+langcode: fr
+status: true
+dependencies:
+  config:
+    - node.type.hotel
+id: node.hotel.uid
+field_name: uid
+entity_type: node
+bundle: hotel
+label: 'Écrit par'
+description: 'Le nom d''utilisateur de l''auteur du contenu.'
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: 'Drupal\node\Entity\Node::getCurrentUserId'
+settings:
+  handler: default
+  handler_settings: {  }
+field_type: entity_reference

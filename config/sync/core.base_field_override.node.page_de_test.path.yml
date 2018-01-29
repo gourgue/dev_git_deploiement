@@ -1,0 +1,20 @@
+uuid: 6349de03-94d4-4a02-a528-60b43303d187
+langcode: fr
+status: true
+dependencies:
+  config:
+    - node.type.page_de_test
+  module:
+    - path
+id: node.page_de_test.path
+field_name: path
+entity_type: node
+bundle: page_de_test
+label: 'Alias d''URL'
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: path

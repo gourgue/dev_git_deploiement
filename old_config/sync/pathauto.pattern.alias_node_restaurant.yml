@@ -1,0 +1,22 @@
+uuid: d3897cba-f4aa-4aff-b87d-8d8774bbb26f
+langcode: fr
+status: true
+dependencies:
+  module:
+    - node
+id: alias_node_restaurant
+label: 'Alias Node Restaurant'
+type: 'canonical_entities:node'
+pattern: '/hotels/restaurants/[node:title]'
+selection_criteria:
+  854dcc6c-91de-407f-800c-5cbec0bcbc6a:
+    id: node_type
+    bundles:
+      restaurant: restaurant
+    negate: false
+    context_mapping:
+      node: node
+    uuid: 854dcc6c-91de-407f-800c-5cbec0bcbc6a
+selection_logic: and
+weight: -7
+relationships: {  }

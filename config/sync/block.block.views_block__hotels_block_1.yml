@@ -1,0 +1,41 @@
+uuid: 0cc6343e-b0fb-41b3-9ee8-b573350d86fe
+langcode: fr
+status: true
+dependencies:
+  config:
+    - views.view.hotels
+  module:
+    - language
+    - node
+    - views
+  theme:
+    - bartik
+id: views_block__hotels_block_1
+theme: bartik
+region: sidebar_second
+weight: -12
+provider: null
+plugin: 'views_block:hotels-block_1'
+settings:
+  id: 'views_block:hotels-block_1'
+  label: 'Les 3 derniers Hôtels 5 étoiles'
+  provider: views
+  label_display: visible
+  views_label: 'Les 3 derniers Hôtels 5 étoiles'
+  items_per_page: none
+  context_mapping: {  }
+visibility:
+  node_type:
+    id: node_type
+    bundles:
+      hotel: hotel
+    negate: false
+    context_mapping:
+      node: '@node.node_route_context:node'
+  language:
+    id: language
+    langcodes:
+      fr: fr
+    negate: false
+    context_mapping:
+      language: '@language.current_language_context:language_interface'

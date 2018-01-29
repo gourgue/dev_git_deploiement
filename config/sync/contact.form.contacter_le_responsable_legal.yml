@@ -1,0 +1,21 @@
+uuid: d8072db5-1f20-432c-b7c8-1bb3997cde2a
+langcode: fr
+status: true
+dependencies:
+  module:
+    - contact_storage
+third_party_settings:
+  contact_storage:
+    submit_text: 'Envoyer le message'
+    show_preview: true
+    disabled_form_message: 'This contact form has been disabled.'
+    maximum_submissions_user: 0
+    page_autoreply_format: plain_text
+id: contacter_le_responsable_legal
+label: 'contacter le responsable legal'
+recipients:
+  - mikegourgue@gmail.com
+reply: 'Nous allons traiter votre demande. Merci de votre demande.'
+weight: 0
+message: 'Contacter le responsable légal du site web'
+redirect: ''

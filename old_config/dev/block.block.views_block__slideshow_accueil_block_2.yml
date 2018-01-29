@@ -1,0 +1,24 @@
+uuid: 3f50b0d8-bce4-4ad8-8ba2-5629d3ae1fd1
+langcode: fr
+status: true
+dependencies:
+  config:
+    - views.view.slideshow_accueil
+  module:
+    - views
+  theme:
+    - bartik
+id: views_block__slideshow_accueil_block_2
+theme: bartik
+region: sidebar_second
+weight: -14
+provider: null
+plugin: 'views_block:slideshow_accueil-block_2'
+settings:
+  id: 'views_block:slideshow_accueil-block_2'
+  label: ''
+  provider: views
+  label_display: visible
+  views_label: ''
+  items_per_page: none
+visibility: {  }

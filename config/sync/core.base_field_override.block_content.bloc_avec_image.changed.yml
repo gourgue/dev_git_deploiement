@@ -1,0 +1,18 @@
+uuid: 7028f6c1-3653-4780-bebe-79872b016ae0
+langcode: fr
+status: true
+dependencies:
+  config:
+    - block_content.type.bloc_avec_image
+id: block_content.bloc_avec_image.changed
+field_name: changed
+entity_type: block_content
+bundle: bloc_avec_image
+label: Modifié
+description: 'L''heure à laquelle le bloc personnalisé a été modifié pour la dernière fois.'
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: changed

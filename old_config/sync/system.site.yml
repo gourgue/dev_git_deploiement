@@ -1,0 +1,14 @@
+uuid: c1107383-3742-444c-8b34-8076d7c654ae
+name: 'Hotels et Restaurants'
+mail: mikegourgue@hotmail.com
+slogan: ''
+page:
+  403: ''
+  404: ''
+  front: /node
+admin_compact_mode: false
+weight_select_max: 100
+langcode: fr
+default_langcode: fr
+_core:
+  default_config_hash: yXadRE77Va-G6dxhd2kPYapAvbnSvTF6hO4oXiOEynI

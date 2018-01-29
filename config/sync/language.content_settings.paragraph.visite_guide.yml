@@ -1,0 +1,16 @@
+uuid: 971531ee-b8fe-404f-88a2-c91b8b7eecbc
+langcode: fr
+status: true
+dependencies:
+  config:
+    - paragraphs.paragraphs_type.visite_guide
+  module:
+    - content_translation
+third_party_settings:
+  content_translation:
+    enabled: false
+id: paragraph.visite_guide
+target_entity_type_id: paragraph
+target_bundle: visite_guide
+default_langcode: site_default
+language_alterable: false

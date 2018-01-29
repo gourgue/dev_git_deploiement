@@ -1,0 +1,30 @@
+uuid: ecf57c7b-f1ac-471c-be0f-f889047ffcfd
+langcode: fr
+status: true
+dependencies:
+  config:
+    - core.entity_view_mode.node.teaser
+    - field.field.node.maison.body
+    - node.type.maison
+  module:
+    - text
+    - user
+id: node.maison.teaser
+targetEntityType: node
+bundle: maison
+mode: teaser
+content:
+  body:
+    label: hidden
+    type: text_summary_or_trimmed
+    weight: 101
+    settings:
+      trim_length: 600
+    third_party_settings: {  }
+    region: content
+  links:
+    weight: 100
+    region: content
+hidden:
+  addtoany: true
+  langcode: true

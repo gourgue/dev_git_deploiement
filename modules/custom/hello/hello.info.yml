@@ -1,0 +1,14 @@
+#Nom du module
+name: hello
+#Description du module
+description: hello module for D8 developer training
+#Type de code(modile,theme,...)
+type: module
+#Version Drupal
+core: 8.x
+#Version du module
+version: 8.x-1.0
+#Groupe du module
+package: Training
+#Dependances
+dependencies:

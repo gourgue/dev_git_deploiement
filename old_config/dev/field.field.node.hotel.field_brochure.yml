@@ -1,0 +1,27 @@
+uuid: f3204fee-600d-48d7-aca1-05151be956f3
+langcode: fr
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_brochure
+    - node.type.hotel
+  module:
+    - file
+id: node.hotel.field_brochure
+field_name: field_brochure
+entity_type: node
+bundle: hotel
+label: Brochure(PDF)
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  file_directory: '[date:custom:Y]-[date:custom:m]'
+  file_extensions: pdf
+  max_filesize: 5MB
+  description_field: true
+  handler: 'default:file'
+  handler_settings: {  }
+field_type: file

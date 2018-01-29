@@ -1,0 +1,30 @@
+uuid: 6934c1fb-7654-4783-883b-c0bd9851ffad
+langcode: fr
+status: true
+dependencies:
+  module:
+    - annonce
+    - hello
+  theme:
+    - bartik
+_core:
+  default_config_hash: eaMNlanbdfLZHpprc-LRxWvmmECdMFO7FmsHpzYyZTg
+id: hello
+theme: bartik
+region: sidebar_first
+weight: -13
+provider: null
+plugin: hello_block
+settings:
+  id: hello_block
+  label: Hello
+  provider: hello
+  label_display: visible
+visibility:
+  date:
+    id: date
+    module: null
+    negate: false
+    context_mapping: {  }
+    date_debut: '2018-01-19'
+    date_fin: '2018-01-21'

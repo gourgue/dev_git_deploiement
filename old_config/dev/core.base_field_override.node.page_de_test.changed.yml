@@ -1,0 +1,18 @@
+uuid: 5a777ea9-3910-4ee7-953c-37c3bdfcc8b4
+langcode: fr
+status: true
+dependencies:
+  config:
+    - node.type.page_de_test
+id: node.page_de_test.changed
+field_name: changed
+entity_type: node
+bundle: page_de_test
+label: Modifié
+description: 'Le moment auquel le nœud a été modifié pour la dernière fois.'
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: changed

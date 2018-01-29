@@ -1,0 +1,22 @@
+uuid: 0ee93e23-d58b-4b45-9680-2a2f8ff2a52d
+langcode: fr
+status: true
+dependencies:
+  module:
+    - system
+  theme:
+    - himalaya
+_core:
+  default_config_hash: KHQIJ7Vfl25lTjzIc7qIvnuistt-Mw2O0kG4jCofmkI
+id: himalaya_messages
+theme: himalaya
+region: header
+weight: 0
+provider: null
+plugin: system_messages_block
+settings:
+  id: system_messages_block
+  label: 'Messages de statut'
+  provider: system
+  label_display: '0'
+visibility: {  }

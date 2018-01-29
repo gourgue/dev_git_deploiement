@@ -1,0 +1,22 @@
+uuid: d6c5226c-e615-4db1-8e70-7c89324a62e0
+langcode: fr
+status: true
+dependencies:
+  config:
+    - field.storage.node.body
+    - node.type.maison
+  module:
+    - text
+id: node.maison.body
+field_name: body
+entity_type: node
+bundle: maison
+label: Body
+description: ''
+required: false
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings:
+  display_summary: true
+field_type: text_with_summary

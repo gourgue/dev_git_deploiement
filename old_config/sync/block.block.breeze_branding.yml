@@ -1,0 +1,25 @@
+uuid: cfd269d0-caea-4b8e-89be-4525785202c3
+langcode: fr
+status: true
+dependencies:
+  module:
+    - system
+  theme:
+    - breeze
+_core:
+  default_config_hash: NDwadleLD3YVSbDUaakxyYZyINYtkFtOVGShfq4kWy8
+id: breeze_branding
+theme: breeze
+region: header
+weight: 0
+provider: null
+plugin: system_branding_block
+settings:
+  id: system_branding_block
+  label: 'Marque du site'
+  provider: system
+  label_display: '0'
+  use_site_logo: true
+  use_site_name: true
+  use_site_slogan: true
+visibility: {  }

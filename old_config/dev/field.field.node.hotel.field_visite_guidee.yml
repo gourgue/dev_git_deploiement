@@ -1,0 +1,21 @@
+uuid: 0ac4678d-20f3-4471-a0ba-c566c2ff9861
+langcode: fr
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_visite_guidee
+    - node.type.hotel
+  module:
+    - text
+id: node.hotel.field_visite_guidee
+field_name: field_visite_guidee
+entity_type: node
+bundle: hotel
+label: 'Lieu de visite guidée'
+description: ''
+required: true
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: text

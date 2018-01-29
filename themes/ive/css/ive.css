@@ -1,0 +1,59 @@
+
+#header .region-header .site-branding__name a{
+  color: orange;
+}
+
+#header .region-header .site-branding__name a{
+  color:#orange;
+  font-weight: bold;
+  font-size: 40px;
+}
+
+#header{
+  background:#fff;
+}
+
+.region-primary-menu .menu a{
+    color:#000!important  ;
+    font-weight: bold;
+    font-size: 14px;
+    background-color:orange;
+    border-radius: 8px;
+    /*border:1px solid orange;*/
+}
+
+/*.region-primary-menu .menu a:hover{
+    color:orange!important;
+    background-color:#fff!important;
+    border-radius: 8px;
+}*/
+
+.region-primary-menu .menu is-active a
+{
+  color: orange!important;
+}
+
+
+.node--view-mode-teaser h2 a {
+    color: orange;
+}
+.sidebar .block {
+    background-color: #fff;
+    border: 0px;
+}
+.sidebar h2 {
+    border-bottom: 1px solid orange;
+    color: orange;
+    margin: 0 0 0.5em;
+    padding-bottom: 5px;
+    text-shadow: 0 1px 0 #fff;
+    font-size: 1.071em;
+    line-height: 1.2;
+}
+#drupal8
+{
+  background-color:orange;
+}
+.node .iconlink:before{
+  content:url("/themes/ive/images/external-link.gif");
+}

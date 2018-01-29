@@ -1,0 +1,22 @@
+uuid: b43dfb95-7176-4f12-8d31-8cee60806ff2
+langcode: fr
+status: true
+dependencies:
+  config:
+    - paragraphs.paragraphs_type.visite_guide
+id: paragraph.visite_guide.status
+field_name: status
+entity_type: paragraph
+bundle: visite_guide
+label: Published
+description: ''
+required: false
+translatable: false
+default_value:
+  -
+    value: 1
+default_value_callback: ''
+settings:
+  on_label: 'On'
+  off_label: 'Off'
+field_type: boolean

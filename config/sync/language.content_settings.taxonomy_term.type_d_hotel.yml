@@ -1,0 +1,16 @@
+uuid: 2414e59f-754a-4e38-87ce-1667efffa901
+langcode: fr
+status: true
+dependencies:
+  config:
+    - taxonomy.vocabulary.type_d_hotel
+  module:
+    - content_translation
+third_party_settings:
+  content_translation:
+    enabled: false
+id: taxonomy_term.type_d_hotel
+target_entity_type_id: taxonomy_term
+target_bundle: type_d_hotel
+default_langcode: site_default
+language_alterable: false

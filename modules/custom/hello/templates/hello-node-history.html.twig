@@ -1,0 +1,20 @@
+
+{% if count <= "1" %}
+<div>
+ <span>
+   {% trans %}
+     The node <strong>{{ node.label }}</strong> has been updated <strong style="color:red">{{ count }} time.</strong>
+   {% endtrans %}
+ </span>
+</div>
+
+{% elseif count > "1" %}
+<div>
+ <span>
+   {% trans %}
+     The node <strong>{{ node.label }}</strong> has been updated <strong style="color:red">{{ count }} times.</strong>
+   {% endtrans %}
+ </span>
+</div>
+
+{% endif %}

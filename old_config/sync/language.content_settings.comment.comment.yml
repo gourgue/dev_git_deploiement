@@ -1,0 +1,16 @@
+uuid: a186fdaf-ef11-4881-bb54-b12d44d938d5
+langcode: fr
+status: true
+dependencies:
+  config:
+    - comment.type.comment
+  module:
+    - content_translation
+third_party_settings:
+  content_translation:
+    enabled: false
+id: comment.comment
+target_entity_type_id: comment
+target_bundle: comment
+default_langcode: site_default
+language_alterable: false

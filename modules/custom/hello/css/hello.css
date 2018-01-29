@@ -1,0 +1,32 @@
+
+.red-class {
+	background-color: #F08080!important;
+}
+.blue-class{
+	background-color: #1d84c3!important;
+}
+.blue-class *,
+.green-class *,
+.silver-class *,
+.orange-class *,
+.pink-class *{
+	color: #fff;		
+}
+.green-class{
+	background-color: #8FBC8F!important;		
+}
+
+.gm-style-iw *,
+.chosen-container *{
+	color:grey;
+}
+
+.silver-class{
+	background-color: #C0C0C0!important;
+}
+.orange-class{
+	background-color: #F0E68C!important;
+}
+.pink-class{
+	background-color: #FFC0CB!important;
+}

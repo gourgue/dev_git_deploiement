@@ -1,0 +1,25 @@
+uuid: 2711a1f7-5b37-438b-9ecf-9551027b352f
+langcode: fr
+status: true
+dependencies:
+  config:
+    - views.view.hotels
+  module:
+    - views
+  theme:
+    - bartik
+id: views_block__hotels_block_2
+theme: bartik
+region: sidebar_second
+weight: -9
+provider: null
+plugin: 'views_block:hotels-block_2'
+settings:
+  id: 'views_block:hotels-block_2'
+  label: ''
+  provider: views
+  label_display: visible
+  views_label: ''
+  items_per_page: none
+  context_mapping: {  }
+visibility: {  }

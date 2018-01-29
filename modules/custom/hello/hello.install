@@ -1,0 +1,72 @@
+<?php
+
+
+use Drupal\Core\Database\Database;
+
+
+function hello_schema() {
+  $schema['hello_node_history'] = [
+    // Example (partial) specification for table "node".
+    'description' => 'The base table for nodes.',
+    'fields' => [
+      'hid' => [
+        'description' => 'The primary key history ID.',
+        'type' => 'serial',
+        'length' => 10,
+        'unsigned' => TRUE,
+        'not null' => TRUE,
+      ],
+      'nid' => [
+        'description' => 'Node ID',
+        'type' => 'int',
+        'length' => 10,
+        'unsigned' => TRUE,
+        'not null' => TRUE,
+        'default' => 0,
+      ],
+
+      'uid' => [
+        'description' => 'Node ID uid',
+        'type' => 'int',
+        'length' => 10,
+        'unsigned' => TRUE,
+        'not null' => TRUE,
+        'default' => 0,
+      ],
+      'update_time' => [
+        'description' => 'Timestamp of node',
+        'type' => 'int',
+        'length' => 11	,
+        'unsigned' => TRUE,
+        'not null' => TRUE,
+      ],
+
+
+    ],
+    
+    // For documentation purposes only; foreign keys are not created in the
+    // database.
+  
+    'primary key' => ['hid'],
+  ];
+  return $schema;
+
+}
+
+
+/**
+ * Add a 'uid' field to the hello_node_history table.
+ */
+ function hello_update_8301() {
+ $field_spec = array(
+    	'type' => 'int',
+    	'description' => 'New col',
+        'unsigned' => TRUE,
+        'not null' => TRUE   
+  ); 
+
+ $schema = Database::getConnection()->schema();
+ $schema->addField('hello_node_history', 'uid', $field_spec);
+
+	drupal_set_message('salut, modification effectué');
+}

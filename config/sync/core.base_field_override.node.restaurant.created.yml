@@ -1,0 +1,18 @@
+uuid: ff72cc5b-dd77-46e7-8f4f-21a7987340fb
+langcode: fr
+status: true
+dependencies:
+  config:
+    - node.type.restaurant
+id: node.restaurant.created
+field_name: created
+entity_type: node
+bundle: restaurant
+label: 'Écrit le'
+description: 'L''heure à laquelle le nœud a été créé.'
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: created

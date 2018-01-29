@@ -1,0 +1,45 @@
+uuid: 9e33f81c-e47b-4c85-b2ae-cbf4ac39142e
+langcode: fr
+status: true
+dependencies:
+  config:
+    - views.view.liste_des_contacts
+  module:
+    - annonce
+    - ctools
+    - views
+  theme:
+    - bartik
+id: views_block__liste_des_contacts_block_1
+theme: bartik
+region: secondary_menu
+weight: 0
+provider: null
+plugin: 'views_block:liste_des_contacts-block_1'
+settings:
+  id: 'views_block:liste_des_contacts-block_1'
+  label: ''
+  provider: views
+  label_display: visible
+  views_label: ''
+  items_per_page: none
+visibility:
+  'entity_bundle:node':
+    id: 'entity_bundle:node'
+    bundles:
+      page: page
+    negate: false
+    context_mapping:
+      node: '@node.node_route_context:node'
+  'entity_bundle:webform_submission':
+    id: 'entity_bundle:webform_submission'
+    bundles:
+      contact: contact
+    negate: false
+    context_mapping:
+      webform_submission: '@webform.webform_submission_route_context:webform_submission'
+  date:
+    id: date
+    module: null
+    negate: false
+    context_mapping: {  }

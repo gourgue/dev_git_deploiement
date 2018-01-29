@@ -1,0 +1,18 @@
+uuid: ce020de9-13fb-4f50-9677-1c3dfff3561b
+langcode: fr
+status: true
+dependencies:
+  module:
+    - menu_ui
+third_party_settings:
+  menu_ui:
+    available_menus:
+      - main
+    parent: 'main:'
+name: 'Page de test'
+type: page_de_test
+description: 'Page de test'
+help: ''
+new_revision: true
+preview_mode: 1
+display_submitted: true

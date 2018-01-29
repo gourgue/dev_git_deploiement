@@ -1,0 +1,16 @@
+
+.squares>div:nth-child(float:left, with:50%)
+.squares>div:nth-child img(max-width:100%, height:auto)
+
+.squares>div:nth-child(1){
+  background-color: yellow;
+}
+.squares>div:nth-child(2){
+  background-color: orange;
+}
+.squares>div:nth-child(3){
+  background-color: red;
+}
+.squares>div:nth-child(4){
+  background-color: green;
+}

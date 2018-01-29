@@ -1,0 +1,26 @@
+uuid: 42b2f2e1-5a05-4cc0-9fe9-946b31aaae8b
+langcode: fr
+status: true
+dependencies:
+  config:
+    - system.menu.tools
+  module:
+    - system
+  theme:
+    - himalaya
+_core:
+  default_config_hash: NeHSoqm4XFqA7_0bDmR429ZZQt3LRbZMNRJTMsFyOfI
+id: himalaya_tools
+theme: himalaya
+region: sidebar_first
+weight: 0
+provider: null
+plugin: 'system_menu_block:tools'
+settings:
+  id: 'system_menu_block:tools'
+  label: Outils
+  provider: system
+  label_display: visible
+  level: 1
+  depth: 0
+visibility: {  }

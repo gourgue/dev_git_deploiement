@@ -1,0 +1,9 @@
+uuid: 148fccc5-cfe5-4b7e-a4b1-9d79fdfeb19c
+langcode: fr
+status: true
+dependencies: {  }
+name: Catégorie
+vid: categorie
+description: 'Catégorie d''hôtel en nombre d''étoiles'
+hierarchy: 0
+weight: 0

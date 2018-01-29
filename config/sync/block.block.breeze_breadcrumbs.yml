@@ -1,0 +1,22 @@
+uuid: cb4b9157-a303-426b-9551-98c56d2b3eea
+langcode: fr
+status: true
+dependencies:
+  module:
+    - system
+  theme:
+    - breeze
+_core:
+  default_config_hash: oXUb3JZR2WW5VOdw4HrhRicCsq51mCgLfRyvheG68ck
+id: breeze_breadcrumbs
+theme: breeze
+region: header
+weight: 0
+provider: null
+plugin: system_breadcrumb_block
+settings:
+  id: system_breadcrumb_block
+  label: 'Fils d''Ariane'
+  provider: system
+  label_display: '0'
+visibility: {  }

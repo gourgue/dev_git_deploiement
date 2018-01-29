@@ -1,0 +1,20 @@
+uuid: a20268ff-880e-4b41-879a-955a0d3487c0
+langcode: fr
+status: true
+dependencies:
+  config:
+    - taxonomy.vocabulary.type_d_hotel
+  module:
+    - text
+id: taxonomy_term.type_d_hotel.description
+field_name: description
+entity_type: taxonomy_term
+bundle: type_d_hotel
+label: Description
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: text_long

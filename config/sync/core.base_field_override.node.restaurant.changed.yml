@@ -1,0 +1,18 @@
+uuid: 363d777e-3d02-46cf-8bd4-8a3b7bb2e15e
+langcode: fr
+status: true
+dependencies:
+  config:
+    - node.type.restaurant
+id: node.restaurant.changed
+field_name: changed
+entity_type: node
+bundle: restaurant
+label: Modifié
+description: 'Le moment auquel le nœud a été modifié pour la dernière fois.'
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: changed

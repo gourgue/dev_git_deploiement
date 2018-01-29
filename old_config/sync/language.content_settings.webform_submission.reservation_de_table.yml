@@ -1,0 +1,11 @@
+uuid: 204c21da-8b59-4234-9923-df6fc612bd20
+langcode: fr
+status: true
+dependencies:
+  config:
+    - webform.webform.reservation_de_table
+id: webform_submission.reservation_de_table
+target_entity_type_id: webform_submission
+target_bundle: reservation_de_table
+default_langcode: site_default
+language_alterable: false

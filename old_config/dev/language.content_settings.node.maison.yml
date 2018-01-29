@@ -1,0 +1,11 @@
+uuid: f963b6e3-e645-42fe-a9f4-2cf0901314bf
+langcode: fr
+status: true
+dependencies:
+  config:
+    - node.type.maison
+id: node.maison
+target_entity_type_id: node
+target_bundle: maison
+default_langcode: site_default
+language_alterable: false

@@ -1,0 +1,22 @@
+uuid: 88d91a5a-9dc6-43b7-9252-3bb57b2e69a5
+langcode: fr
+status: true
+dependencies:
+  config:
+    - node.type.restaurant
+id: node.restaurant.promote
+field_name: promote
+entity_type: node
+bundle: restaurant
+label: 'Promoted to front page'
+description: ''
+required: false
+translatable: false
+default_value:
+  -
+    value: 0
+default_value_callback: ''
+settings:
+  on_label: 'On'
+  off_label: 'Off'
+field_type: boolean

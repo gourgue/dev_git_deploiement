@@ -1,0 +1,12 @@
+uuid: 0a7b3d0a-252c-464b-baa6-7236e6aea585
+langcode: fr
+status: true
+dependencies: {  }
+label: '200*200'
+id: '200_200'
+description: 'Carré de 200 par 200 px.'
+aspect_ratio: '1:1'
+soft_limit_width: null
+soft_limit_height: null
+hard_limit_width: 200
+hard_limit_height: 200

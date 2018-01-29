@@ -1,0 +1,21 @@
+uuid: cb0c192b-1286-4357-bba6-e7b40a0ebc3d
+langcode: fr
+status: true
+dependencies:
+  config:
+    - field.storage.user.field_biograp
+  module:
+    - text
+    - user
+id: user.user.field_biograp
+field_name: field_biograp
+entity_type: user
+bundle: user
+label: Biographie
+description: 'Biographie de l''utilisateur'
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: text

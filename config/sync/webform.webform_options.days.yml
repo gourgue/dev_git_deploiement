@@ -1,0 +1,14 @@
+uuid: c976d5c1-754c-40d1-9d0d-4159d3dff2cb
+langcode: fr
+status: true
+dependencies:
+  enforced:
+    module:
+      - webform
+_core:
+  default_config_hash: g7vVTKzdq3cfd93-p6DCwS-k-tA__u3BGFzZrl4ZPgQ
+id: days
+label: Jours
+category: 'Date and time'
+likert: false
+options: "Sunday: Sunday\nMonday: Monday\nTuesday: Tuesday\nWednesday: Wednesday\nThursday: Thursday\nFriday: Friday\nSaturday: Saturday\n"

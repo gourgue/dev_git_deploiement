@@ -1,0 +1,23 @@
+uuid: 75c9b60c-59d2-4aa8-8e33-89845fd6c7b4
+langcode: fr
+status: true
+dependencies: {  }
+_core:
+  default_config_hash: dJ0L2DNSj5q6XVZAGsuVDpJTh5UeYkIPwKrUOOpr8YI
+id: authenticated
+label: 'Utilisateur authentifié'
+weight: -9
+is_admin: false
+permissions:
+  - 'access comments'
+  - 'access content'
+  - 'access shortcuts'
+  - 'access site-wide contact form'
+  - 'access user contact forms'
+  - 'access user profiles'
+  - 'ma permission'
+  - 'post comments'
+  - 'search content'
+  - 'skip comment approval'
+  - 'subscribe to newsletters'
+  - 'use text format basic_html'

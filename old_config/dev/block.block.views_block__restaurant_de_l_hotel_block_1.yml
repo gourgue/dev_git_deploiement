@@ -1,0 +1,33 @@
+uuid: c5b6527d-0e32-4c85-8570-527f65d4cecf
+langcode: fr
+status: true
+dependencies:
+  config:
+    - views.view.restaurant_de_l_hotel
+  module:
+    - ctools
+    - views
+  theme:
+    - bartik
+id: views_block__restaurant_de_l_hotel_block_1
+theme: bartik
+region: sidebar_second
+weight: -13
+provider: null
+plugin: 'views_block:restaurant_de_l_hotel-block_1'
+settings:
+  id: 'views_block:restaurant_de_l_hotel-block_1'
+  label: ''
+  provider: views
+  label_display: visible
+  views_label: ''
+  items_per_page: none
+  context_mapping: {  }
+visibility:
+  'entity_bundle:node':
+    id: 'entity_bundle:node'
+    bundles:
+      hotel: hotel
+    negate: false
+    context_mapping:
+      node: '@node.node_route_context:node'

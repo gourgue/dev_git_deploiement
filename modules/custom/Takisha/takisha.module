@@ -1,0 +1,7 @@
+ <?php
+ 'Takisha',
+    'description' => 'The Takisha World page',
+    'route_name' => 'takisha.takisha_world',
+  );
+  return $items;
+}

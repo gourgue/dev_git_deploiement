@@ -1,0 +1,37 @@
+uuid: 62ec6143-62a9-43da-991b-ce62f9bb7b74
+langcode: fr
+status: true
+dependencies:
+  module:
+    - annonce
+    - system
+  theme:
+    - bartik
+_core:
+  default_config_hash: NDwadleLD3YVSbDUaakxyYZyINYtkFtOVGShfq4kWy8
+id: bartik_branding
+theme: bartik
+region: header
+weight: 0
+provider: null
+plugin: system_branding_block
+settings:
+  id: system_branding_block
+  label: 'Marque du site'
+  provider: system
+  label_display: '0'
+  use_site_logo: true
+  use_site_name: true
+  use_site_slogan: false
+visibility:
+  date:
+    id: date
+    module: ''
+    negate: false
+    date_debut:
+      date: '2018-01-19'
+      time: ''
+    date_fin:
+      date: '2018-01-19'
+      time: ''
+    context_mapping: {  }

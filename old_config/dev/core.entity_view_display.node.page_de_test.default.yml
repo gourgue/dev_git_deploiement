@@ -1,0 +1,27 @@
+uuid: a1f370ea-e898-4fd7-ad23-93191721d6d9
+langcode: fr
+status: true
+dependencies:
+  config:
+    - field.field.node.page_de_test.body
+    - node.type.page_de_test
+  module:
+    - text
+    - user
+id: node.page_de_test.default
+targetEntityType: node
+bundle: page_de_test
+mode: default
+content:
+  body:
+    label: hidden
+    type: text_default
+    weight: 101
+    settings: {  }
+    third_party_settings: {  }
+    region: content
+  links:
+    weight: 100
+    region: content
+hidden:
+  langcode: true

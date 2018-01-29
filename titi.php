@@ -1,0 +1,8 @@
+<?php
+
+elseif (condition) {
+  # code...
+}
+
+
+ ?>

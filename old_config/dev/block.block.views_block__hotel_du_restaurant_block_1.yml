@@ -1,0 +1,24 @@
+uuid: 8dfc529e-268b-4bbf-ae9d-f2974f5f5f68
+langcode: fr
+status: true
+dependencies:
+  config:
+    - views.view.hotel_du_restaurant
+  module:
+    - views
+  theme:
+    - bartik
+id: views_block__hotel_du_restaurant_block_1
+theme: bartik
+region: sidebar_second
+weight: 0
+provider: null
+plugin: 'views_block:hotel_du_restaurant-block_1'
+settings:
+  id: 'views_block:hotel_du_restaurant-block_1'
+  label: ''
+  provider: views
+  label_display: visible
+  views_label: ''
+  items_per_page: none
+visibility: {  }

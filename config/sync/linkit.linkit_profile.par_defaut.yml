@@ -1,0 +1,36 @@
+uuid: a84e451c-9a75-426e-9c22-90be40dbeae3
+langcode: fr
+status: true
+dependencies:
+  module:
+    - node
+id: par_defaut
+label: 'Par défaut'
+description: ''
+attributes:
+  target:
+    id: target
+    weight: 0
+    settings:
+      widget_type: select_list
+  relationship:
+    id: relationship
+    weight: 0
+    settings: {  }
+  title:
+    id: title
+    weight: 0
+    settings:
+      automatic_title: false
+matchers:
+  c5188425-f075-4274-b0ef-7619d952441d:
+    uuid: c5188425-f075-4274-b0ef-7619d952441d
+    id: 'entity:node'
+    weight: 0
+    settings:
+      result_description: ''
+      bundles:
+        article: article
+        page: page
+      group_by_bundle: false
+      include_unpublished: false

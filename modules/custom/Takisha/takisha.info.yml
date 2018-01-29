@@ -1,0 +1,8 @@
+name: Takisha
+type: module
+description: Displays a module test.
+package: Example Modules
+version: VERSION
+core: 8.x
+#Dependances
+dependencies:

@@ -1,0 +1,20 @@
+# uuid: 5fb172b6-cf7d-44a9-8b4f-c84d7eae9028
+langcode: fr
+status: true
+dependencies:
+  module:
+    - hello
+  theme:
+    - bartik
+id: connectedblock
+theme: bartik
+region: sidebar_first
+weight: -15
+provider: null
+plugin: connected_block
+settings:
+  id: connected_block
+  label: 'connected block'
+  provider: hello
+  label_display: visible
+visibility: {  }

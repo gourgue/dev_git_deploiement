@@ -1,0 +1,14 @@
+h2{
+  color: orange!important;
+}
+
+img.align-left,
+img.align-right{
+  margin-bottom: 10px;
+}
+img.align-left{
+  margin-right: 10px;
+}
+img.align-right{
+  margin-left: 10px;
+}

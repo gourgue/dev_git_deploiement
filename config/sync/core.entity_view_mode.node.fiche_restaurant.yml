@@ -1,0 +1,10 @@
+uuid: b33a3bb3-d5a0-4ffd-a3d9-522bb5d2adf2
+langcode: fr
+status: true
+dependencies:
+  module:
+    - node
+id: node.fiche_restaurant
+label: 'Un Hôtel dans Fiche restaurant'
+targetEntityType: node
+cache: true

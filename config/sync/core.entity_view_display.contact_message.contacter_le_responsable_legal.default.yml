@@ -1,0 +1,59 @@
+uuid: 159dc8d8-cd10-47d7-a8ff-b2a90d2482c3
+langcode: fr
+status: true
+dependencies:
+  config:
+    - contact.form.contacter_le_responsable_legal
+    - field.field.contact_message.contacter_le_responsable_legal.field_url_de_la_page
+  module:
+    - link
+id: contact_message.contacter_le_responsable_legal.default
+targetEntityType: contact_message
+bundle: contacter_le_responsable_legal
+mode: default
+content:
+  field_url_de_la_page:
+    weight: 1
+    label: above
+    settings:
+      trim_length: 80
+      url_only: false
+      url_plain: false
+      rel: ''
+      target: ''
+    third_party_settings: {  }
+    type: link
+    region: content
+  mail:
+    weight: -2
+    region: content
+    label: above
+    settings: {  }
+    third_party_settings: {  }
+    type: basic_string
+  message:
+    type: string
+    weight: 0
+    label: above
+    region: content
+    settings:
+      link_to_entity: false
+    third_party_settings: {  }
+  name:
+    weight: -3
+    region: content
+    label: above
+    settings:
+      link_to_entity: false
+    third_party_settings: {  }
+    type: string
+  subject:
+    weight: -1
+    region: content
+    label: above
+    settings:
+      link_to_entity: false
+    third_party_settings: {  }
+    type: string
+hidden:
+  langcode: true

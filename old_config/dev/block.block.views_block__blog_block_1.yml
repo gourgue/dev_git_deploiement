@@ -1,0 +1,40 @@
+uuid: ebd6a910-16a4-4200-9a8e-ac30b1dee4db
+langcode: fr
+status: true
+dependencies:
+  config:
+    - views.view.blog
+  module:
+    - annonce
+    - ctools
+    - views
+  theme:
+    - bartik
+id: views_block__blog_block_1
+theme: bartik
+region: sidebar_first
+weight: -12
+provider: null
+plugin: 'views_block:blog-block_1'
+settings:
+  id: 'views_block:blog-block_1'
+  label: ''
+  provider: views
+  label_display: visible
+  views_label: ''
+  items_per_page: none
+visibility:
+  'entity_bundle:node':
+    id: 'entity_bundle:node'
+    bundles:
+      article: article
+    negate: false
+    context_mapping:
+      node: '@node.node_route_context:node'
+  date:
+    id: date
+    module: ''
+    negate: null
+    date_debut: '2018-01-20'
+    date_fin: '2018-01-02'
+    context_mapping: {  }

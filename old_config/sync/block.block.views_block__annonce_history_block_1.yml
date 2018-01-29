@@ -1,0 +1,36 @@
+uuid: 41e78e26-e02d-490b-9d89-68459c2ca6c2
+langcode: fr
+status: true
+dependencies:
+  config:
+    - views.view.annonce_history
+  module:
+    - annonce
+    - views
+  theme:
+    - bartik
+id: views_block__annonce_history_block_1
+theme: bartik
+region: sidebar_second
+weight: 0
+provider: null
+plugin: 'views_block:annonce_history-block_1'
+settings:
+  id: 'views_block:annonce_history-block_1'
+  label: ''
+  provider: views
+  label_display: visible
+  views_label: ''
+  items_per_page: none
+visibility:
+  date:
+    id: date
+    module: null
+    negate: false
+    context_mapping: {  }
+    date_debut:
+      date: '2018-01-19'
+      time: '16:19:56'
+    date_fin:
+      date: '2018-01-19'
+      time: '16:19:56'

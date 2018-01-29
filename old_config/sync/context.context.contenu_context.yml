@@ -1,0 +1,25 @@
+uuid: 24852ebd-892d-4adf-9608-84a08b269576
+langcode: fr
+status: true
+dependencies:
+  module:
+    - system
+name: contenu_context
+label: 'Contenu context'
+group: null
+description: ''
+requireAllConditions: false
+disabled: false
+conditions:
+  request_path:
+    id: request_path
+    pages: '<front>'
+    negate: 0
+    uuid: b47d5630-aa1e-4fa4-a5dc-5a7bb1ebae88
+    context_mapping: {  }
+reactions:
+  regions:
+    id: regions
+    saved: false
+    uuid: 929c6ef6-2707-415d-a1c9-f5baa61faa57
+weight: 0

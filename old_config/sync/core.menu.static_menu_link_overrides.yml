@@ -1,0 +1,46 @@
+definitions:
+  contact__site_page:
+    menu_name: admin
+    parent: entity.menu.collection
+    weight: -48
+    expanded: false
+    enabled: true
+  standard__front_page:
+    weight: -50
+    menu_name: main
+    parent: ''
+    expanded: false
+    enabled: true
+  'taxonomy_menu__menu_link:taxonomy_menu__menu_link__categorie_nombre_d_etoile_vers_menu_hotel__15':
+    weight: -50
+    menu_name: menu-hotels
+    parent: ''
+    enabled: true
+    expanded: false
+  'taxonomy_menu__menu_link:taxonomy_menu__menu_link__categorie_nombre_d_etoile_vers_menu_hotel__16':
+    weight: -49
+    menu_name: menu-hotels
+    parent: ''
+    expanded: false
+    enabled: true
+  'taxonomy_menu__menu_link:taxonomy_menu__menu_link__categorie_nombre_d_etoile_vers_menu_hotel__17':
+    weight: -48
+    menu_name: menu-hotels
+    parent: ''
+    expanded: false
+    enabled: true
+  'taxonomy_menu__menu_link:taxonomy_menu__menu_link__categorie_nombre_d_etoile_vers_menu_hotel__18':
+    weight: -47
+    menu_name: menu-hotels
+    parent: ''
+    expanded: false
+    enabled: true
+  'taxonomy_menu__menu_link:taxonomy_menu__menu_link__categorie_nombre_d_etoile_vers_menu_hotel__19':
+    weight: -46
+    menu_name: menu-hotels
+    parent: ''
+    expanded: false
+    enabled: true
+_core:
+  default_config_hash: jdY7AU0tU-QsjmiOw3W8vwpYMb-By--_MSFgbqKUTYM
+langcode: fr

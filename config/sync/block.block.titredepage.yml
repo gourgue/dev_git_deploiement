@@ -1,0 +1,33 @@
+uuid: 0a1ca0e9-fd97-44f5-9b9c-0ebf55bae94f
+langcode: fr
+status: true
+dependencies:
+  module:
+    - annonce
+    - block_visibility_groups
+  theme:
+    - bartik
+id: titredepage
+theme: bartik
+region: content
+weight: -14
+provider: null
+plugin: page_title_block
+settings:
+  id: page_title_block
+  label: 'Titre de page'
+  provider: core
+  label_display: '0'
+visibility:
+  date:
+    id: date
+    module: ''
+    negate: null
+    date_debut: ''
+    date_fin: ''
+    context_mapping: {  }
+  condition_group:
+    id: condition_group
+    negate: false
+    block_visibility_group: ''
+    context_mapping: {  }

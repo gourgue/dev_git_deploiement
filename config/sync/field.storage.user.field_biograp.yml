@@ -1,0 +1,20 @@
+uuid: ac35b9c5-c957-460f-98d2-35ac9e3ac42f
+langcode: fr
+status: true
+dependencies:
+  module:
+    - text
+    - user
+id: user.field_biograp
+field_name: field_biograp
+entity_type: user
+type: text
+settings:
+  max_length: 255
+module: text
+locked: false
+cardinality: 1
+translatable: true
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false

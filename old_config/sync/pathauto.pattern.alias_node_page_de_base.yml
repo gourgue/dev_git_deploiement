@@ -1,0 +1,22 @@
+uuid: 26347b89-becb-4076-86d3-6146d4518ae8
+langcode: fr
+status: true
+dependencies:
+  module:
+    - node
+id: alias_node_page_de_base
+label: 'Alias Node page de base'
+type: 'canonical_entities:node'
+pattern: '/[node:title]'
+selection_criteria:
+  16ce628c-d8d6-4e49-ac1c-d0e52cf98c61:
+    id: node_type
+    bundles:
+      page: page
+    negate: false
+    context_mapping:
+      node: node
+    uuid: 16ce628c-d8d6-4e49-ac1c-d0e52cf98c61
+selection_logic: and
+weight: -8
+relationships: {  }

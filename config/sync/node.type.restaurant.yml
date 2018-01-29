@@ -1,0 +1,18 @@
+uuid: fc9f1f8f-6370-4765-a8c6-9331af3580e2
+langcode: fr
+status: true
+dependencies:
+  module:
+    - menu_ui
+third_party_settings:
+  menu_ui:
+    available_menus:
+      - main
+    parent: 'main:'
+name: Réstaurant
+type: restaurant
+description: 'Type de contenu restaurant '
+help: ''
+new_revision: true
+preview_mode: 1
+display_submitted: false

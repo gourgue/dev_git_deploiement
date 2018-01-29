@@ -1,0 +1,69 @@
+hello.hello:
+  path: '/hello/{param}'
+  defaults:
+    _title: 'Hello'
+    _controller: '\Drupal\hello\Controller\HelloController::content'
+    param: null
+  requirements:
+    _access: 'TRUE'
+
+hello.json:
+  path: '/json'
+  defaults:
+    _title: 'Json'
+    _controller: '\Drupal\hello\Controller\HelloController::jsonResponse'
+  requirements:
+    _access: 'TRUE'
+
+hello.node.history:
+  path: '/node/{node_id}/history'
+  defaults:
+    _title: 'Update history'
+    _controller: '\Drupal\hello\Controller\HelloController::nodeHistory'
+  requirements:
+    _access: 'TRUE'
+
+
+/*namespace Drupal\hello\Controller;
+use Drupal\Core\Controller\ControllerBase;
+
+class HelloNodeListeController extends ControllerBase {*/
+
+/**
+ * An example controller.
+ */
+
+  /**
+   * {@inheritdoc}
+   */
+ /* public function nodeList($param) {
+
+     $storage = \Drupal::entityTypeManager()->getStorage('node');
+
+     $ids = \Drupal::entityQuery('node')->pager('10')->execute();
+
+     $entityQuery =\Drupal::entityTypeManager()->getStorage('node')->getQuery();
+
+     $entities = $storage->loadMultiple($ids);
+
+     foreach ($entities as $entitie) {
+      $items[] = $entitie->ToLink();
+
+     }
+
+  $build = array(
+        '#theme' => "item_list",
+            '#items' => $items
+    );
+
+  $page = array(
+    '#type' => 'pager' 
+  );
+
+    return array($build, $page);*/
+/*  }
+
+}
+ */
+
+

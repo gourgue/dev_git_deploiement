@@ -1,0 +1,25 @@
+uuid: 493a2daa-4b57-440b-9ad2-cbb96824388e
+langcode: fr
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_content
+    - node.type.simplenews_issue
+id: node.simplenews_issue.field_content
+field_name: field_content
+entity_type: node
+bundle: simplenews_issue
+label: Content
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  handler: views
+  handler_settings:
+    view:
+      view_name: articles_moins_de_2_mois
+      display_name: entity_reference_1
+      arguments: {  }
+field_type: entity_reference

@@ -1,0 +1,20 @@
+uuid: 769ed76c-1afb-4abd-b645-0c6544ca7370
+langcode: fr
+status: true
+dependencies:
+  module:
+    - node
+    - taxonomy
+id: node.field_type_d_hotel
+field_name: field_type_d_hotel
+entity_type: node
+type: entity_reference
+settings:
+  target_type: taxonomy_term
+module: core
+locked: false
+cardinality: -1
+translatable: true
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false

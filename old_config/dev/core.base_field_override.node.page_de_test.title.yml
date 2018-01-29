@@ -1,0 +1,18 @@
+uuid: 4567195f-8457-4c00-81f0-fab094fd69e6
+langcode: fr
+status: true
+dependencies:
+  config:
+    - node.type.page_de_test
+id: node.page_de_test.title
+field_name: title
+entity_type: node
+bundle: page_de_test
+label: Title
+description: ''
+required: true
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: string
